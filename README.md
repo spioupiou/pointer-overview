@@ -70,7 +70,7 @@ import "fmt"
 
 func rename(pX *string) *string {
   *pX = "NewName" // Here, we change the underlying value of pX
-  return px
+  return pX
 }
 
 func main() {
